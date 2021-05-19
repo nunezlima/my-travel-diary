@@ -1,0 +1,105 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <style>
+        body{
+            background-color: gainsboro;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            margin-right: auto;
+            margin-left: auto;
+            text-align: center;
+        }
+        nav{
+            background-color: royalblue;
+            padding: 16px;
+            text-align: center;
+        }
+        footer{
+            background-color: black;
+            position: fixed;
+            left: 0%;
+            bottom: 0%;
+            width: 100%;
+            color: white;
+            text-align: center;
+        }
+        a:link, a:visited{
+            color: black;
+        }
+        .nav-bar{
+            padding-left: 15px;
+            padding-right: 15px;
+            font-family:'Times New Roman', Times, serif;
+            font: black;
+        }
+        .section-container{
+            margin-left: auto;
+            margin-right: auto;
+            text-align: justify;
+            padding-left: 5%;
+            padding-right: 5%;
+
+        }
+        #form{
+            background-color: white;
+            border: 1px solid #ccc;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            width: 500px;
+        }
+        .input-label{
+            padding-top: 80px;
+            padding-bottom: 40px;
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+        .input-box{
+            font-size: 18px;
+            padding-bottom: 12px;
+            margin-bottom: 36px;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            border-bottom: 1px solid #ccc;
+            width: 100%;
+        }
+        .button{
+            background-color:royalblue;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            padding-left: 24px;
+            padding-right: 24px;
+            font-size: 18px;
+            border: none;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="/HTML/Finalproject/finalproject.html"><span class="nav-bar">TRIPS</span></a>
+        <a href="/HTML/Finalproject/about.html"><span class="nav-bar">ABOUT</span></a>
+        <a href="/HTML/Finalproject/contact.html"><span class="nav-bar">CONTACT</span></a>
+    </nav>
+    <h1 id="form-heading">Contacto</h1>
+    <section class="section-container">
+        <form id="form">
+            <div class="input-label">
+                <input class="input-box" type="text" name="username" placeholder="Username">
+                <input class="input-box" type="email" name="email" placeholder="Email">
+                <input class="input-box" type="tel" name="contactnumber" placeholder="Contact Number" maxlength="10">
+                <input class="button" type="submit" name="submit" value="Submit">
+            </div>
+        </form>
+    </section>
+    <footer>
+        <h3>Copyright 2021</h3>
+    </footer>
+</body>
+</html>
